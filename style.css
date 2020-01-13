@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto:400,500,700&display=swap');
+
+.main-view{
+  height: 99vh;
+  background: url(./bg-image.png) no-repeat;
+  background-size:  70vw 100%;
+  background-position-x: 100%;
+  background-color: #fff;
+}
+
+.main-view .navbar .fa-bowling-ball{
+  color: #171046;
+}
+
+.main-view .navbar a.navbar-brand{
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: black;
+}
+
+.main-view .navbar .navbar-nav a.nav-link{
+  color: #000;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.main-view .navbar .first-nav a.nav-link{
+  font-size: 0.8rem;
+  padding-left: 1rem;
+}
+
+.main-view .navbar .second-nav a.nav-link{
+  font-size: 1rem;
+  margin-right: 1.5rem;
+}
+
+.main-view .navbar .second-nav .nav-item:nth-child(2) a{
+  padding-bottom: 0px;
+  border-bottom: 5px solid #e88714;
+}
+
+.main-view .content-box{
+  position: relative;
+}
+
+.main-view .content-box .text-area{
+  margin: 0rem 5rem;
+  position: absolute;
+  top: 30%;
+  -ms-transform: translateY(30%);
+  transform: translateY(30%);
+}
+
+.main-view .content-box .text-area p{
+  width: 90%;
+  margin-bottom: 50px;
+}
+
+.main-view .content-box .text-area p>span{
+  color: #e88714;
+}
+
+.main-view .content-box .text-area .form-area{
+  box-shadow: 0px 5px 15px #888888;
+  background: white;
+}
+
+
+.main-view .content-box .text-area .form-area select{
+  text-decoration: none !important;
+  border: none;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.main-view .content-box .text-area .form-area .button{
+  background-color: #e88714;
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 40px;
+  margin: 10px 20px;
+  font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---Media Queries --*/
+
+@media (min-width: 1900px){
+
+  body{
+    background-color: #e88714;
+    margin: 100px;
+    height: 100vh;
+  }
+
+  .main-view{
+    height: 83vh;
+    background-size: 60vw 100%;
+  }
+
+  .main-view .navbar{
+    height: 10vh;
+  }
+
+  .main-view .navbar a.navbar-brand{
+    font-size: 3.2rem;
+  }
+
+  .main-view .navbar .first-nav a.nav-link{
+    font-size: 1.8rem;
+    padding-left: 2rem;
+  }
+
+  .main-view .navbar .second-nav a.nav-link{
+    font-size: 2rem;
+  }
+
+  .main-view .content-box .text-area{
+    top: 20%;
+    -ms-transform: translateY(20%);
+    transform: translateY(20%);
+  }
+
+  .main-view .content-box .text-area p{
+    font-size: 8rem;
+  }
+
+  .main-view .content-box .text-area .form-area select,
+  .main-view .content-box .text-area .form-area .button{
+    font-size: 1.4rem;
+  }
+
+
+
+
+
+}
+
+
+@media (max-width: 1024px){
+  .main-view .content-box .text-area p{
+    font-size: 3rem;
+  }
+
+  
+  .main-view .content-box .text-area .form-area select,
+  .main-view .content-box .text-area .form-area .button{
+    font-size: .8rem;
+  }
+
+  .main-view .content-box .text-area .form-area .button{
+    background-color: #e88714;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 40px;
+    margin: 10px 20px;
+    font-weight: 500;
+  }
+
+
+}
+
+@media (max-width: 768px){
+
+  .main-view{
+    background-size: 100%;
+  }
+
+  .main-view .content-box .text-area{
+    margin: 0rem 5rem;
+    position: absolute;
+    top: 40%;
+    transform: translateY(40%);
+  }
+
+  .main-view .content-box .text-area p{
+    width: 60%;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 5px #999999;
+  }
+
+  .main-view .content-box .text-area .form-area{
+    width: 70vw;
+    top: 100px;
+  }
+
+
+}
+
+@media (max-width: 425px){
+
+  .main-view{
+    background-size: cover;
+    padding: 0px; margin: 0px;
+  }
+
+  .main-view .navbar{
+    margin: 0;
+  }
+
+  .main-view .navbar a.navbar-brand{
+    margin: 0px;
+    padding: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+  }
+
+  .main-view .navbar .navbar-nav a.nav-link{
+    margin: 0rem;
+  }
+
+  .main-view .navbar .second-nav .nav-item:nth-child(2) a{
+    padding-bottom: 0px;
+    border-bottom: none;
+  }
+
+  .main-view .content-box .text-area{
+    margin: 0rem 5rem;
+    position: absolute;
+    top: 5%;
+    transform: translateY(5%);
+  }
+
+  .main-view .content-box .text-area p{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .main-view .content-box .text-area .form-area{
+    width: 70vw;
+    top: 0px;
+  }
+
+
+
+
+
+}
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
